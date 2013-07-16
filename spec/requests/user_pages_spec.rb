@@ -8,5 +8,6 @@ describe "UserPages" do
 
   	it { should have_content('Sign Up')}
   	it { should have_title(full_title('Sign Up'))}
+
   end
 end
